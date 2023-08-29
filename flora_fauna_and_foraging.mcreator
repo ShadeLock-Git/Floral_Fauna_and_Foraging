@@ -3,18 +3,97 @@
     {
       "name": "Hedgehog",
       "type": "livingentity",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hedgehog",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/entity/HedgehogEntity.java",
           "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/hedgehog_biome_modifier.json",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/item/hedgehog_spawn_egg.json",
-          "src/main/java/net/mcreator/florafaunaandforaging/client/renderer/HedgehogRenderer.java"
+          "src/main/java/net/mcreator/florafaunaandforaging/entity/HedgehogEntity.java",
+          "src/main/java/net/mcreator/florafaunaandforaging/client/renderer/HedgehogRenderer.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/hedgehog_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "DebugSpawnCount",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_spawn_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/DebugSpawnCountProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "WorldGenerationProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "world_generation_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/WorldGenerationProcedureProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GetSpawnCount",
+      "type": "command",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_spawn_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/command/GetSpawnCountCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "FiretongueUpdateTick",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetongue_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FiretongueUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Firetongue"
     },
     {
       "name": "Firetongue",
@@ -71,70 +150,102 @@
       "path": "~/Firetongue"
     },
     {
-      "name": "WorldGenerationProcedure",
-      "type": "procedure",
-      "sortid": 4,
+      "name": "HeavensDewdropBulb",
+      "type": "item",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "world_generation_procedure",
+      "registry_name": "heavens_dewdrop_bulb",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/procedures/WorldGenerationProcedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "DebugSpawnCount",
-      "type": "procedure",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "debug_spawn_count",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/procedures/DebugSpawnCountProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
-      "name": "GetSpawnCount",
-      "type": "command",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "get_spawn_count",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/command/GetSpawnCountCommand.java"
+          "src/main/java/net/mcreator/florafaunaandforaging/item/HeavensDewdropBulbItem.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop_bulb.json"
         ]
       }
     },
     {
-      "name": "FiretongueUpdateTick",
-      "type": "procedure",
+      "name": "PruningShears",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pruning_shears",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/pruning_shears.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/item/PruningShearsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pruningrecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pruningrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flora_fauna_and_foraging/recipes/pruningrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FloraFaunaAndForaging",
+      "type": "tab",
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "firetongue_update_tick",
+      "registry_name": "flora_fauna_and_foraging",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Pruningrecipeflip",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pruningrecipeflip",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FiretongueUpdateTickProcedure.java"
+          "src/main/resources/data/flora_fauna_and_foraging/recipes/pruningrecipeflip.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavensDewdropBulbless",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dewdrop_bulbless",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop_bulbless.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop_bulbless.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop_bulbless.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavensDewdropPlantRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dewdrop_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/HeavensDewdropPlantRightClickedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -152,8 +263,27 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Firetongue"
+      }
+    },
+    {
+      "name": "HeavensDewdrop",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dewdrop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock.java",
+          "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature.java",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/heavens_dewdrop_biome_modifier.json",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop.json",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/heavens_dewdrop.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -168,8 +298,7 @@
   "language_map": {
     "en_us": {
       "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
-      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog",
-      "block.flora_fauna_and_foraging.firetongue": "Firetongue"
+      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog"
     }
   },
   "foldersRoot": {
