@@ -1,0 +1,49 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hedgehog",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hedgehog",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/entity/HedgehogEntity.java",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/hedgehog_biome_modifier.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/hedgehog_spawn_egg.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/client/renderer/HedgehogRenderer.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flora_fauna_and_foraging",
+    "modName": "Flora Fauna and Foraging",
+    "version": "1.0.0",
+    "author": "Elijah Bishop, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.florafaunaandforaging",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300334614
+}
