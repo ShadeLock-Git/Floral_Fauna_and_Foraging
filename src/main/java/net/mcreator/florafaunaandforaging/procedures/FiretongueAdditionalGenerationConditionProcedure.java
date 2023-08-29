@@ -1,11 +1,8 @@
 package net.mcreator.florafaunaandforaging.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.tags.BlockTags;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.BlockPos;
+import net.minecraftforge.eventbus.api.Event;
 
-import net.mcreator.florafaunaandforaging.network.FloraFaunaAndForagingModVariables;
+import javax.annotation.Nullable;
 
 public class FiretongueAdditionalGenerationConditionProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {

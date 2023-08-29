@@ -1,12 +1,6 @@
 package net.mcreator.florafaunaandforaging.procedures;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
-
-import net.minecraft.world.level.LevelAccessor;
-
-import net.mcreator.florafaunaandforaging.network.FloraFaunaAndForagingModVariables;
 
 import javax.annotation.Nullable;
 

@@ -3,7 +3,6 @@
     {
       "name": "Hedgehog",
       "type": "livingentity",
-      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hedgehog",
@@ -167,8 +166,7 @@
           "src/main/java/net/mcreator/florafaunaandforaging/item/HeavensDewdropBulbItem.java",
           "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop_bulb.json"
         ]
-      },
-      "path": "~/Heavensdewdropflower"
+      }
     },
     {
       "name": "PruningShears",
@@ -181,43 +179,6 @@
         "files": [
           "src/main/java/net/mcreator/florafaunaandforaging/item/PruningShearsItem.java",
           "src/main/resources/assets/flora_fauna_and_foraging/models/item/pruning_shears.json"
-        ]
-      }
-    },
-    {
-      "name": "Pruningrecipe",
-      "type": "recipe",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pruningrecipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/flora_fauna_and_foraging/recipes/pruningrecipe.json"
-        ]
-      }
-    },
-    {
-      "name": "FloraFaunaAndForaging",
-      "type": "tab",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flora_fauna_and_foraging",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
-      "name": "Pruningrecipeflip",
-      "type": "recipe",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pruningrecipeflip",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/flora_fauna_and_foraging/recipes/pruningrecipeflip.json"
         ]
       }
     },
@@ -235,8 +196,7 @@
           "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop_bulbless.json",
           "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop_bulbless.json"
         ]
-      },
-      "path": "~/Heavensdewdropflower"
+      }
     },
     {
       "name": "HeavensDewdropPlantRightClicked",
@@ -271,8 +231,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Heavensdewdropflower"
+      }
     },
     {
       "name": "HeavensDewdrop",
@@ -292,8 +251,7 @@
           "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop.json",
           "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop.json"
         ]
-      },
-      "path": "~/Heavensdewdropflower"
+      }
     }
   ],
   "variable_elements": [
@@ -321,15 +279,15 @@
     "name": "~",
     "children": [
       {
+        "name": "Heavensdewdropflower",
+        "children": []
+      },
+      {
         "name": "Procedures",
         "children": []
       },
       {
         "name": "Firetongue",
-        "children": []
-      },
-      {
-        "name": "Heavensdewdropflower",
         "children": []
       }
     ]
