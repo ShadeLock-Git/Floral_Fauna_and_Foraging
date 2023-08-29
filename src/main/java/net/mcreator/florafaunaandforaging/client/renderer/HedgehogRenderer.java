@@ -2,18 +2,15 @@
 package net.mcreator.florafaunaandforaging.client.renderer;
 
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
-import net.minecraft.client.renderer.entity.HumanoidMobRenderer;
+import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
-import net.minecraft.client.model.geom.ModelLayers;
-import net.minecraft.client.model.HumanoidModel;
 
 import net.mcreator.florafaunaandforaging.entity.HedgehogEntity;
+import net.mcreator.florafaunaandforaging.client.model.Modelcustom_model;
 
-public class HedgehogRenderer extends HumanoidMobRenderer<HedgehogEntity, HumanoidModel<HedgehogEntity>> {
+public class HedgehogRenderer extends MobRenderer<HedgehogEntity, Modelcustom_model<HedgehogEntity>> {
 	public HedgehogRenderer(EntityRendererProvider.Context context) {
-		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.4f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
+		super(context, new Modelcustom_model(context.bakeLayer(Modelcustom_model.LAYER_LOCATION)), 0.4f);
 	}
 
 	@Override
