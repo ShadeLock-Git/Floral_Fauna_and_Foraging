@@ -25,5 +25,9 @@ public class FloraFaunaAndForagingModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(FloraFaunaAndForagingModItems.HEDGEHOG_SPAWN_EGG.get());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(FloraFaunaAndForagingModBlocks.FIRETONGUE.get().asItem());
+		}
 	}
 }
