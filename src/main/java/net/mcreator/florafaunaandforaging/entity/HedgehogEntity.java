@@ -44,7 +44,7 @@ public class HedgehogEntity extends Animal {
 	public HedgehogEntity(EntityType<HedgehogEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 2;
+		xpReward = 1;
 		setNoAi(false);
 	}
 

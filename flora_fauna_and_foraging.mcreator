@@ -3,6 +3,7 @@
     {
       "name": "Hedgehog",
       "type": "livingentity",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hedgehog",
@@ -14,6 +15,40 @@
           "src/main/java/net/mcreator/florafaunaandforaging/client/renderer/HedgehogRenderer.java"
         ]
       }
+    },
+    {
+      "name": "HeavensDewdrop",
+      "type": "plant",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dewdrop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature.java",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/heavens_dewdrop_biome_modifier.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock.java",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/heavens_dewdrop.json",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop.json"
+        ]
+      }
+    },
+    {
+      "name": "PruningShears",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pruning_shears",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/item/PruningShearsItem.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/pruning_shears.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -21,7 +56,9 @@
   "language_map": {
     "en_us": {
       "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
-      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog"
+      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
+      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog",
+      "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop"
     }
   },
   "foldersRoot": {

@@ -31,7 +31,9 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModTabs;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModItems;
+import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModFeatures;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModEntities;
+import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,10 +53,13 @@ public class FloraFaunaAndForagingMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		FloraFaunaAndForagingModBlocks.REGISTRY.register(bus);
+
 		FloraFaunaAndForagingModItems.REGISTRY.register(bus);
 		FloraFaunaAndForagingModEntities.REGISTRY.register(bus);
 
 		FloraFaunaAndForagingModTabs.REGISTRY.register(bus);
+		FloraFaunaAndForagingModFeatures.REGISTRY.register(bus);
 
 	}
 
