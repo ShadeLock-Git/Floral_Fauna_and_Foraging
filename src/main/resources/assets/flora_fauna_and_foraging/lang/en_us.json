@@ -1,6 +1,9 @@
 {
   "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
   "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
+  "item.flora_fauna_and_foraging.heavens_dewdrop_bulb": "Heaven\u0027s Dewdrop Bulb",
+  "item_group.flora_fauna_and_foraging.flora_fauna_and_foraging": "Flora Fauna And Foraging",
   "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog",
+  "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
   "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop"
 }

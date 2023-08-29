@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.florafaunaandforaging.item.PruningShearsItem;
+import net.mcreator.florafaunaandforaging.item.HeavensDewdropBulbItem;
 import net.mcreator.florafaunaandforaging.FloraFaunaAndForagingMod;
 
 public class FloraFaunaAndForagingModItems {
@@ -21,6 +22,8 @@ public class FloraFaunaAndForagingModItems {
 	public static final RegistryObject<Item> HEDGEHOG_SPAWN_EGG = REGISTRY.register("hedgehog_spawn_egg", () -> new ForgeSpawnEggItem(FloraFaunaAndForagingModEntities.HEDGEHOG, -12309760, -3622747, new Item.Properties()));
 	public static final RegistryObject<Item> HEAVENS_DEWDROP = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROP);
 	public static final RegistryObject<Item> PRUNING_SHEARS = REGISTRY.register("pruning_shears", () -> new PruningShearsItem());
+	public static final RegistryObject<Item> HEAVENS_DEWDROP_BULBLESS = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROP_BULBLESS);
+	public static final RegistryObject<Item> HEAVENS_DEWDROP_BULB = REGISTRY.register("heavens_dewdrop_bulb", () -> new HeavensDewdropBulbItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

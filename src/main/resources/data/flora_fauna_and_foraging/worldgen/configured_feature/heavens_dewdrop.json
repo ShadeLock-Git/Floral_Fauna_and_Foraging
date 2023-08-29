@@ -1,7 +1,7 @@
 {
   "type": "flora_fauna_and_foraging:heavens_dewdrop",
   "config": {
-    "tries": 24,
+    "tries": 30,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",

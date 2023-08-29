@@ -6,7 +6,7 @@ import net.minecraft.world.item.Item;
 
 public class PruningShearsItem extends Item {
 	public PruningShearsItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(250).rarity(Rarity.COMMON));
 	}
 
 	@Override
