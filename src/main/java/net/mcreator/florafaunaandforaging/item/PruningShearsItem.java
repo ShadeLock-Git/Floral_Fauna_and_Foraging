@@ -1,8 +1,8 @@
 
 package net.mcreator.florafaunaandforaging.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
-import javax.annotation.Nullable;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Item;
 
 public class PruningShearsItem extends Item {
 	public PruningShearsItem() {

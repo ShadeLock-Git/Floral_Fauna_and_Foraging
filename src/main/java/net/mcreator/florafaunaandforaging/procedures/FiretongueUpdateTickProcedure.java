@@ -1,8 +1,9 @@
 package net.mcreator.florafaunaandforaging.procedures;
 
-import net.minecraftforge.eventbus.api.Event;
-
-import javax.annotation.Nullable;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
+import net.minecraft.core.particles.ParticleTypes;
 
 public class FiretongueUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {

@@ -1,9 +1,16 @@
 
 package net.mcreator.florafaunaandforaging.world.features.plants;
 
-import com.mojang.serialization.Codec;
-import net.minecraft.world.level.levelgen.blockpredicates.BlockPredicate;
-import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
+import net.minecraft.world.level.levelgen.feature.configurations.RandomPatchConfiguration;
+import net.minecraft.world.level.levelgen.feature.RandomPatchFeature;
+import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
+import net.minecraft.world.level.WorldGenLevel;
+import net.minecraft.world.level.Level;
+import net.minecraft.resources.ResourceKey;
+
+import net.mcreator.florafaunaandforaging.procedures.FiretongueAdditionalGenerationConditionProcedure;
+
+import java.util.Set;
 
 public class FiretongueFeature extends RandomPatchFeature {
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
@@ -19,7 +26,7 @@ public class FiretongueFeature extends RandomPatchFeature {
 		int x = context.origin().getX();
 		int y = context.origin().getY();
 		int z = context.origin().getZ();
-		if (!FiretongueAdditionalGenerationConditionProcedure.execute())
+		if (!FiretongueAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 			return false;
 		return super.place(context);
 	}

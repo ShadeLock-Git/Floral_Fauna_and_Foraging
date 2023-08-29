@@ -1,8 +1,33 @@
 
 package net.mcreator.florafaunaandforaging.block;
 
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import org.checkerframework.checker.units.qual.s;
+
+import net.minecraftforge.common.PlantType;
+
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.Direction;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.florafaunaandforaging.procedures.FiretongueUpdateTickProcedure;
+import net.mcreator.florafaunaandforaging.procedures.FiretongueAdditionalGenerationConditionProcedure;
+
+import java.util.List;
+import java.util.Collections;
 
 public class FiretongueBlock extends FlowerBlock {
 	public FiretongueBlock() {
@@ -53,7 +78,7 @@ public class FiretongueBlock extends FlowerBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		FiretongueAdditionalGenerationConditionProcedure.execute();
+		FiretongueAdditionalGenerationConditionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
