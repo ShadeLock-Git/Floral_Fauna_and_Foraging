@@ -219,7 +219,7 @@
       "name": "HeavensDewdropBulbless",
       "type": "plant",
       "sortid": 5,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "heavens_dewdrop_bulbless",
       "metadata": {
@@ -235,7 +235,7 @@
       "name": "HeavensDewdropPlantRightClicked",
       "type": "procedure",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "heavens_dewdrop_plant_right_clicked",
       "metadata": {
@@ -270,7 +270,7 @@
       "name": "HeavensDewdrop",
       "type": "plant",
       "sortid": 3,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "heavens_dewdrop",
       "metadata": {
