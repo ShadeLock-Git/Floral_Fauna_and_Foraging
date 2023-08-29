@@ -109,7 +109,7 @@
       "name": "GetSpawnCount",
       "type": "command",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "get_spawn_count",
       "metadata": {
