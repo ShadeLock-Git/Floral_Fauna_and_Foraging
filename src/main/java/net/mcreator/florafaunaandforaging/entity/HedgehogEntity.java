@@ -6,8 +6,8 @@ import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -94,7 +94,7 @@ public class HedgehogEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Blocks.WHEAT.asItem()).contains(stack.getItem());
+		return List.of(Items.WHEAT_SEEDS).contains(stack.getItem());
 	}
 
 	public static void init() {

@@ -9,19 +9,19 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 			new ResourceLocation("modid", "custom_model"), "main");
 	private final ModelPart Body;
 	private final ModelPart spines;
-	private final ModelPart leg;
-	private final ModelPart leg2;
-	private final ModelPart leg3;
-	private final ModelPart leg4;
+	private final ModelPart Rightbackleg;
+	private final ModelPart Leftbackleg;
+	private final ModelPart Leftfrontleg;
+	private final ModelPart Rightfrontleg;
 	private final ModelPart head;
 
 	public Modelcustom_model(ModelPart root) {
 		this.Body = root.getChild("Body");
 		this.spines = root.getChild("spines");
-		this.leg = root.getChild("leg");
-		this.leg2 = root.getChild("leg2");
-		this.leg3 = root.getChild("leg3");
-		this.leg4 = root.getChild("leg4");
+		this.Rightbackleg = root.getChild("Rightbackleg");
+		this.Leftbackleg = root.getChild("Leftbackleg");
+		this.Leftfrontleg = root.getChild("Leftfrontleg");
+		this.Rightfrontleg = root.getChild("Rightfrontleg");
 		this.head = root.getChild("head");
 	}
 
@@ -49,17 +49,21 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 						.addBox(-6.0F, -7.0F, 5.25F, 12.0F, 5.0F, 0.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 24.0F, 0.0F));
 
-		PartDefinition leg = partdefinition.addOrReplaceChild("leg", CubeListBuilder.create().texOffs(6, 0).addBox(
-				-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(-3.5F, 22.0F, 4.5F));
+		PartDefinition Rightbackleg = partdefinition.addOrReplaceChild("Rightbackleg", CubeListBuilder.create()
+				.texOffs(6, 0).addBox(-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(-3.5F, 22.0F, 4.5F));
 
-		PartDefinition leg2 = partdefinition.addOrReplaceChild("leg2", CubeListBuilder.create().texOffs(6, 0).addBox(
-				-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(3.5F, 22.0F, 4.5F));
+		PartDefinition Leftbackleg = partdefinition.addOrReplaceChild("Leftbackleg", CubeListBuilder.create()
+				.texOffs(6, 0).addBox(-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(3.5F, 22.0F, 4.5F));
 
-		PartDefinition leg3 = partdefinition.addOrReplaceChild("leg3", CubeListBuilder.create().texOffs(6, 0).addBox(
-				-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(3.5F, 22.0F, -4.5F));
+		PartDefinition Leftfrontleg = partdefinition.addOrReplaceChild("Leftfrontleg", CubeListBuilder.create()
+				.texOffs(6, 0).addBox(-0.5F, 0.0F, -0.5F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(3.5F, 22.0F, -4.5F));
 
-		PartDefinition leg4 = partdefinition.addOrReplaceChild("leg4", CubeListBuilder.create().texOffs(6, 0).addBox(
-				-0.5F, 0.0F, -1.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)), PartPose.offset(-3.5F, 22.0F, -4.0F));
+		PartDefinition Rightfrontleg = partdefinition.addOrReplaceChild("Rightfrontleg", CubeListBuilder.create()
+				.texOffs(6, 0).addBox(-0.5F, 0.0F, -1.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(-3.5F, 22.0F, -4.0F));
 
 		PartDefinition head = partdefinition.addOrReplaceChild("head",
 				CubeListBuilder.create().texOffs(0, 49)
@@ -75,20 +79,24 @@ public class Modelcustom_model<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
-			float headPitch) {
-
-	}
-
-	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay,
 			float red, float green, float blue, float alpha) {
 		Body.render(poseStack, buffer, packedLight, packedOverlay);
 		spines.render(poseStack, buffer, packedLight, packedOverlay);
-		leg.render(poseStack, buffer, packedLight, packedOverlay);
-		leg2.render(poseStack, buffer, packedLight, packedOverlay);
-		leg3.render(poseStack, buffer, packedLight, packedOverlay);
-		leg4.render(poseStack, buffer, packedLight, packedOverlay);
+		Rightbackleg.render(poseStack, buffer, packedLight, packedOverlay);
+		Leftbackleg.render(poseStack, buffer, packedLight, packedOverlay);
+		Leftfrontleg.render(poseStack, buffer, packedLight, packedOverlay);
+		Rightfrontleg.render(poseStack, buffer, packedLight, packedOverlay);
 		head.render(poseStack, buffer, packedLight, packedOverlay);
+	}
+
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw,
+			float headPitch) {
+		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
+		this.head.xRot = headPitch / (180F / (float) Math.PI);
+		this.Leftfrontleg.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.Leftbackleg.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
+		this.Rightfrontleg.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.Rightbackleg.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 	}
 }

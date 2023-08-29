@@ -103,7 +103,7 @@
     "tameable": false,
     "breedTriggerItems": [
       {
-        "value": "Blocks.WHEAT"
+        "value": "Items.WHEAT_SEEDS"
       }
     ],
     "ranged": false,
