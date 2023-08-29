@@ -9,7 +9,7 @@ public class HeavensDewdropPlantRightClickedProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == FloraFaunaAndForagingModItems.PRUNING_SHEARS.get()
-				&& FloraFaunaAndForagingModItems.DELETED_MOD_ELEMENT.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
+				&& FloraFaunaAndForagingModItems.HEAVENS_DEWDROP.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			{
 				ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 				if (_ist.hurt(1, RandomSource.create(), null)) {

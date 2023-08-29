@@ -23,7 +23,6 @@ public class FloraFaunaAndForagingModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FloraFaunaAndForagingMod.MODID);
 	public static final RegistryObject<CreativeModeTab> FLORA_FAUNA_AND_FORAGING = REGISTRY.register("flora_fauna_and_foraging", () -> CreativeModeTab.builder()
 			.title(Component.translatable("item_group.flora_fauna_and_foraging.flora_fauna_and_foraging")).icon(() -> new ItemStack(FloraFaunaAndForagingModItems.PRUNING_SHEARS.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROP.get().asItem());
 				tabData.accept(FloraFaunaAndForagingModItems.PRUNING_SHEARS.get());
 				tabData.accept(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROP_BULBLESS.get().asItem());
 				tabData.accept(FloraFaunaAndForagingModItems.HEAVENS_DEWDROP_BULB.get());

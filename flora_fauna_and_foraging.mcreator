@@ -4,7 +4,7 @@
       "name": "Hedgehog",
       "type": "livingentity",
       "sortid": 2,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "hedgehog",
       "metadata": {
@@ -109,7 +109,7 @@
       "name": "GetSpawnCount",
       "type": "command",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "get_spawn_count",
       "metadata": {
@@ -205,7 +205,7 @@
       "name": "PruningShears",
       "type": "item",
       "sortid": 4,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "pruning_shears",
       "metadata": {
@@ -299,6 +299,7 @@
   "language_map": {
     "en_us": {
       "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
+      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog",
       "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
       "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop"
