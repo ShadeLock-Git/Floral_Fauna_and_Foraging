@@ -219,7 +219,7 @@
       "name": "HeavensDewdropBulbless",
       "type": "plant",
       "sortid": 5,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "heavens_dewdrop_bulbless",
       "metadata": {
