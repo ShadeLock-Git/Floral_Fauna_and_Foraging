@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import net.minecraft.world.level.levelgen.feature.Feature;
 
+import net.mcreator.florafaunaandforaging.world.features.plants.HeavensDewdropFeature;
 import net.mcreator.florafaunaandforaging.world.features.plants.FiretongueFeature;
 import net.mcreator.florafaunaandforaging.FloraFaunaAndForagingMod;
 
@@ -18,4 +19,5 @@ import net.mcreator.florafaunaandforaging.FloraFaunaAndForagingMod;
 public class FloraFaunaAndForagingModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, FloraFaunaAndForagingMod.MODID);
 	public static final RegistryObject<Feature<?>> FIRETONGUE = REGISTRY.register("firetongue", FiretongueFeature::new);
+	public static final RegistryObject<Feature<?>> HEAVENS_DEWDROP = REGISTRY.register("heavens_dewdrop", HeavensDewdropFeature::new);
 }

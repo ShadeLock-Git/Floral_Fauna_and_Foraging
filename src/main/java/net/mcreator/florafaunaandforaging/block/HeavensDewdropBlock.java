@@ -58,7 +58,7 @@ public class HeavensDewdropBlock extends FlowerBlock {
 	@Override
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
-		HeavensDewdropPlantRightClickedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ(), entity);
+		HeavensDewdropPlantRightClickedProcedure.execute();
 		return InteractionResult.SUCCESS;
 	}
 }
