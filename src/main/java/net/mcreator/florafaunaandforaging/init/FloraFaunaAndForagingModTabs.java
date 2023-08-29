@@ -28,6 +28,7 @@ public class FloraFaunaAndForagingModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(FloraFaunaAndForagingModBlocks.FIRETONGUE.get().asItem());
+			tabData.accept(FloraFaunaAndForagingModBlocks.HEAVENSDEWDROP.get().asItem());
 		}
 	}
 }

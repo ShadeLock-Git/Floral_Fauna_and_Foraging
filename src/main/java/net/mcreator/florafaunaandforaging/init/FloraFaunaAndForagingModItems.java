@@ -19,6 +19,7 @@ public class FloraFaunaAndForagingModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, FloraFaunaAndForagingMod.MODID);
 	public static final RegistryObject<Item> FIRETONGUE = block(FloraFaunaAndForagingModBlocks.FIRETONGUE);
 	public static final RegistryObject<Item> HEDGEHOG_SPAWN_EGG = REGISTRY.register("hedgehog_spawn_egg", () -> new ForgeSpawnEggItem(FloraFaunaAndForagingModEntities.HEDGEHOG, -12309760, -3622747, new Item.Properties()));
+	public static final RegistryObject<Item> HEAVENSDEWDROP = block(FloraFaunaAndForagingModBlocks.HEAVENSDEWDROP);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

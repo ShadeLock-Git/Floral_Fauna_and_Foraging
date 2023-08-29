@@ -11,7 +11,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "suspiciousStewEffect": "LUCK",
+    "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 100,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
@@ -31,11 +31,11 @@
     "name": "Heaven's Dewdrop",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "DECORATIONS"
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 6,
+    "luminance": 0,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -63,7 +63,7 @@
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -74,24 +74,17 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,
-    "jumpFactor": 1.3,
-    "speedFactor": 1.1,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "meadow"
-      }
-    ],
+    "restrictionBiomes": [],
     "generationType": "Flower",
-    "patchSize": 30,
-    "generateAtAnyHeight": false,
-    "onRightClicked": {
-      "name": "HeavensDewdropPlantRightClicked"
-    }
+    "patchSize": 64,
+    "generateAtAnyHeight": false
   }
 }
