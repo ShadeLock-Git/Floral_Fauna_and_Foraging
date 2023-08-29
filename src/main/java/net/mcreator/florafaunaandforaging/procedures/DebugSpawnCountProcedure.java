@@ -7,6 +7,6 @@ import javax.annotation.Nullable;
 public class DebugSpawnCountProcedure {
 	public static void execute(LevelAccessor world) {
 		if (!world.isClientSide() && world.getServer() != null)
-			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal((new java.text.DecimalFormat("#").format())), false);
+			world.getServer().getPlayerList().broadcastSystemMessage(Component.literal((new java.text.DecimalFormat("#").format(FloraFaunaAndForagingModVariables.MapVariables.get(world).FiretongueSpawnCount))), false);
 	}
 }

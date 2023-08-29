@@ -19,7 +19,7 @@ public class FiretongueFeature extends RandomPatchFeature {
 		int x = context.origin().getX();
 		int y = context.origin().getY();
 		int z = context.origin().getZ();
-		if (!FiretongueAdditionalGenerationConditionProcedure.execute())
+		if (!FiretongueAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 			return false;
 		return super.place(context);
 	}

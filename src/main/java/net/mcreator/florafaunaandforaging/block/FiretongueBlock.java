@@ -53,7 +53,7 @@ public class FiretongueBlock extends FlowerBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		FiretongueAdditionalGenerationConditionProcedure.execute();
+		FiretongueAdditionalGenerationConditionProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override
