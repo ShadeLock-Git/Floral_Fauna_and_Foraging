@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "flora_fauna_and_foraging:heavens_dewdrop_bulb"
+    },
+    {
+      "item": "flora_fauna_and_foraging:heavens_dewdrop_bulb"
+    }
+  ],
+  "result": {
+    "item": "minecraft:glowstone_dust",
+    "count": 1
+  }
+}

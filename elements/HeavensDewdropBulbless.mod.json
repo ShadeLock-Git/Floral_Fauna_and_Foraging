@@ -31,7 +31,7 @@
     "name": "Heavens Dewdrop Bulbless",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:FloraFaunaAndForaging"
+      "value": "No creative tab entry"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -62,13 +62,13 @@
       "value": ""
     },
     "dropAmount": 0,
-    "forceTicking": false,
+    "forceTicking": true,
     "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:HeavensDewdrop"
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
@@ -86,6 +86,9 @@
     "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 64,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": false,
+    "onTickUpdate": {
+      "name": "HeavensDewdropBulblessUpdateTick"
+    }
   }
 }

@@ -32,7 +32,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModTabs;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModItems;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModFeatures;
-import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModEntities;
 import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModBlocks;
 
 import java.util.function.Supplier;
@@ -56,7 +55,6 @@ public class FloraFaunaAndForagingMod {
 		FloraFaunaAndForagingModBlocks.REGISTRY.register(bus);
 
 		FloraFaunaAndForagingModItems.REGISTRY.register(bus);
-		FloraFaunaAndForagingModEntities.REGISTRY.register(bus);
 
 		FloraFaunaAndForagingModTabs.REGISTRY.register(bus);
 		FloraFaunaAndForagingModFeatures.REGISTRY.register(bus);

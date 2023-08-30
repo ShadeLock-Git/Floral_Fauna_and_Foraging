@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "flora_fauna_and_foraging:block/heavensdewdrop1",
+    "particle": "flora_fauna_and_foraging:block/heavensdewdrop1"
+  },
+  "render_type": "cutout"
+}

@@ -7,7 +7,6 @@ package net.mcreator.florafaunaandforaging.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -24,7 +23,9 @@ public class FloraFaunaAndForagingModItems {
 	public static final RegistryObject<Item> PRUNING_SHEARS = REGISTRY.register("pruning_shears", () -> new PruningShearsItem());
 	public static final RegistryObject<Item> HEAVENS_DEWDROP_BULBLESS = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROP_BULBLESS);
 	public static final RegistryObject<Item> HEAVENS_DEWDROP_BULB = REGISTRY.register("heavens_dewdrop_bulb", () -> new HeavensDewdropBulbItem());
-	public static final RegistryObject<Item> HEDGEHOG_SPAWN_EGG = REGISTRY.register("hedgehog_spawn_egg", () -> new ForgeSpawnEggItem(FloraFaunaAndForagingModEntities.HEDGEHOG, -12309760, -3622747, new Item.Properties()));
+	public static final RegistryObject<Item> HEAVENS_DEWDROPGROW_3 = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROPGROW_3);
+	public static final RegistryObject<Item> HEAVENS_DEW_DROPGROWTH_2 = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEW_DROPGROWTH_2);
+	public static final RegistryObject<Item> HEAVENSDEWDROPGROWTH_1 = block(FloraFaunaAndForagingModBlocks.HEAVENSDEWDROPGROWTH_1);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
