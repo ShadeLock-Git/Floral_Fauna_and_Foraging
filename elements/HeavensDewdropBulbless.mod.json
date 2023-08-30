@@ -31,7 +31,7 @@
     "name": "Heavens Dewdrop Bulbless",
     "specialInfo": [],
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:FloraFaunaAndForaging"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -77,7 +77,10 @@
     "jumpFactor": 0.8,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "HeavensDewdropBulblessOnBoneMealSuccess"
+    },
     "frequencyOnChunks": 0,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
