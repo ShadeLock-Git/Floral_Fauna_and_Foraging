@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.florafaunaandforaging.block.WiltingNightshadeBlock;
 import net.mcreator.florafaunaandforaging.block.Heavensdewdropgrowth1Block;
 import net.mcreator.florafaunaandforaging.block.HeavensDewdropgrow3Block;
 import net.mcreator.florafaunaandforaging.block.HeavensDewdropBulblessBlock;
@@ -26,4 +27,5 @@ public class FloraFaunaAndForagingModBlocks {
 	public static final RegistryObject<Block> HEAVENS_DEWDROPGROW_3 = REGISTRY.register("heavens_dewdropgrow_3", () -> new HeavensDewdropgrow3Block());
 	public static final RegistryObject<Block> HEAVENS_DEW_DROPGROWTH_2 = REGISTRY.register("heavens_dew_dropgrowth_2", () -> new HeavensDewDropgrowth2Block());
 	public static final RegistryObject<Block> HEAVENSDEWDROPGROWTH_1 = REGISTRY.register("heavensdewdropgrowth_1", () -> new Heavensdewdropgrowth1Block());
+	public static final RegistryObject<Block> WILTING_NIGHTSHADE = REGISTRY.register("wilting_nightshade", () -> new WiltingNightshadeBlock());
 }

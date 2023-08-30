@@ -359,7 +359,59 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Heavensdewdropflower"
+    },
+    {
+      "name": "HeavensDewdropgrow3",
+      "type": "plant",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dewdropgrow_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdropgrow_3.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdropgrow_3.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdropgrow_3.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block.java"
+        ]
+      },
+      "path": "~/Heavensdewdropflower"
+    },
+    {
+      "name": "HeavensDewDropgrowth2",
+      "type": "plant",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavens_dew_dropgrowth_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dew_dropgrowth_2.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dew_dropgrowth_2.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dew_dropgrowth_2.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewDropgrowth2Block.java"
+        ]
+      },
+      "path": "~/Heavensdewdropflower"
+    },
+    {
+      "name": "Heavensdewdropgrowth1",
+      "type": "plant",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavensdewdropgrowth_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavensdewdropgrowth_1.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavensdewdropgrowth_1.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavensdewdropgrowth_1.json"
+        ]
+      },
+      "path": "~/Heavensdewdropflower"
     }
   ],
   "variable_elements": [
@@ -375,10 +427,13 @@
     "en_us": {
       "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "item.flora_fauna_and_foraging.heavens_dewdrop_bulb": "Heaven\u0027s Dewdrop Bulb",
+      "block.flora_fauna_and_foraging.heavensdewdropgrowth_1": "Heavensdewdropgrowth 1",
       "item_group.flora_fauna_and_foraging.flora_fauna_and_foraging": "Flora Fauna And Foraging",
+      "block.flora_fauna_and_foraging.heavens_dewdropgrow_3": "Heavens Dewdropgrow 3",
       "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
       "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop",
-      "block.flora_fauna_and_foraging.firetongue": "Firetongue"
+      "block.flora_fauna_and_foraging.firetongue": "Firetongue",
+      "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2"
     }
   },
   "foldersRoot": {

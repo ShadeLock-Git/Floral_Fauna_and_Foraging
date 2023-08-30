@@ -412,6 +412,27 @@
         ]
       },
       "path": "~/Heavensdewdropflower"
+    },
+    {
+      "name": "WiltingNightshade",
+      "type": "plant",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wilting_nightshade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/wilting_nightshade.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/wilting_nightshade.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/WiltingNightshadeFeature.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/wilting_nightshade.json",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/wilting_nightshade_biome_modifier.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/WiltingNightshadeBlock.java",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/wilting_nightshade.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/wilting_nightshade.json"
+        ]
+      },
+      "path": "~/WiltingNightshade"
     }
   ],
   "variable_elements": [
@@ -432,6 +453,7 @@
       "block.flora_fauna_and_foraging.heavens_dewdropgrow_3": "Heavens Dewdropgrow 3",
       "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
       "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop",
+      "block.flora_fauna_and_foraging.wilting_nightshade": "Wilting Nightshade",
       "block.flora_fauna_and_foraging.firetongue": "Firetongue",
       "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2"
     }
@@ -453,6 +475,10 @@
       },
       {
         "name": "Misc.",
+        "children": []
+      },
+      {
+        "name": "WiltingNightshade",
         "children": []
       }
     ]

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "swamp",
+  "features": "flora_fauna_and_foraging:wilting_nightshade",
+  "step": "vegetal_decoration"
+}

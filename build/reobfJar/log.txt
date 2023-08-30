@@ -134,28 +134,33 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foraging\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewDropgrowth2Block/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: mayPlaceOn -> m_6266_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewDropgrowth2Block/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock/isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/BonemealableBlock/isBonemealSuccess(Lnet/minecraft/world/level/Level;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)Z: isBonemealSuccess -> m_214167_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock/performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/block/BonemealableBlock/performBonemeal(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: performBonemeal -> m_214148_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock/isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Z from net/minecraft/world/level/block/BonemealableBlock/isValidBonemealTarget(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)Z: isValidBonemealTarget -> m_7370_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V from net/minecraft/world/level/block/state/BlockBehaviour/onPlace(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Z)V: onPlace -> m_6807_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/mayPlaceOn(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: mayPlaceOn -> m_6266_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/BushBlock/canSurvive(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;)Z: canSurvive -> m_7898_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/FiretongueBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/WiltingNightshadeBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/block/WiltingNightshadeBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/item/PruningShearsItem/getEnchantmentValue()I from net/minecraft/world/item/Item/getEnchantmentValue()I: getEnchantmentValue -> m_6473_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/world/features/plants/FiretongueFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/florafaunaandforaging/world/features/plants/WiltingNightshadeFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/network/FloraFaunaAndForagingModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for net/mcreator/florafaunaandforaging/network/FloraFaunaAndForagingModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
@@ -166,8 +171,6 @@ Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/world/features/plants/FiretongueFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
-Conflicting propagated mapping for net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
 Adding extras
 Sorting
 Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foraging\build\reobfJar\output.jar
@@ -183,6 +186,7 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop_bulbless.json
   assets/flora_fauna_and_foraging/blockstates/heavens_dewdropgrow_3.json
   assets/flora_fauna_and_foraging/blockstates/heavensdewdropgrowth_1.json
+  assets/flora_fauna_and_foraging/blockstates/wilting_nightshade.json
   assets/flora_fauna_and_foraging/lang/
   assets/flora_fauna_and_foraging/lang/en_us.json
   assets/flora_fauna_and_foraging/models/
@@ -193,6 +197,7 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   assets/flora_fauna_and_foraging/models/block/heavens_dewdrop_bulbless.json
   assets/flora_fauna_and_foraging/models/block/heavens_dewdropgrow_3.json
   assets/flora_fauna_and_foraging/models/block/heavensdewdropgrowth_1.json
+  assets/flora_fauna_and_foraging/models/block/wilting_nightshade.json
   assets/flora_fauna_and_foraging/models/item/
   assets/flora_fauna_and_foraging/models/item/firetongue.json
   assets/flora_fauna_and_foraging/models/item/heavens_dew_dropgrowth_2.json
@@ -204,6 +209,7 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   assets/flora_fauna_and_foraging/models/item/mouse.mtl
   assets/flora_fauna_and_foraging/models/item/mouse.obj
   assets/flora_fauna_and_foraging/models/item/pruning_shears.json
+  assets/flora_fauna_and_foraging/models/item/wilting_nightshade.json
   assets/flora_fauna_and_foraging/textures/
   assets/flora_fauna_and_foraging/textures/block/
   assets/flora_fauna_and_foraging/textures/block/ah.png
@@ -223,6 +229,7 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   data/flora_fauna_and_foraging/forge/biome_modifier/
   data/flora_fauna_and_foraging/forge/biome_modifier/firetongue_biome_modifier.json
   data/flora_fauna_and_foraging/forge/biome_modifier/heavens_dewdrop_biome_modifier.json
+  data/flora_fauna_and_foraging/forge/biome_modifier/wilting_nightshade_biome_modifier.json
   data/flora_fauna_and_foraging/recipes/
   data/flora_fauna_and_foraging/recipes/dewdropbulbto_glowstone.json
   data/flora_fauna_and_foraging/recipes/pruningrecipe.json
@@ -231,9 +238,11 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   data/flora_fauna_and_foraging/worldgen/configured_feature/
   data/flora_fauna_and_foraging/worldgen/configured_feature/firetongue.json
   data/flora_fauna_and_foraging/worldgen/configured_feature/heavens_dewdrop.json
+  data/flora_fauna_and_foraging/worldgen/configured_feature/wilting_nightshade.json
   data/flora_fauna_and_foraging/worldgen/placed_feature/
   data/flora_fauna_and_foraging/worldgen/placed_feature/firetongue.json
   data/flora_fauna_and_foraging/worldgen/placed_feature/heavens_dewdrop.json
+  data/flora_fauna_and_foraging/worldgen/placed_feature/wilting_nightshade.json
   net/
   net/mcreator/
   net/mcreator/florafaunaandforaging/
@@ -245,6 +254,7 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock.class
   net/mcreator/florafaunaandforaging/block/HeavensDewdropgrow3Block.class
   net/mcreator/florafaunaandforaging/block/Heavensdewdropgrowth1Block.class
+  net/mcreator/florafaunaandforaging/block/WiltingNightshadeBlock.class
   net/mcreator/florafaunaandforaging/command/
   net/mcreator/florafaunaandforaging/command/GetSpawnCountCommand.class
   net/mcreator/florafaunaandforaging/init/
@@ -274,4 +284,5 @@ Writing Output: C:\Users\Elijah Bishop\Documents\GitHub\Floral_Fauna_and_Foragin
   net/mcreator/florafaunaandforaging/world/features/plants/
   net/mcreator/florafaunaandforaging/world/features/plants/FiretongueFeature.class
   net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature.class
+  net/mcreator/florafaunaandforaging/world/features/plants/WiltingNightshadeFeature.class
   pack.mcmeta

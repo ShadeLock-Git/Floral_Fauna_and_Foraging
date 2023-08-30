@@ -26,6 +26,7 @@ public class FloraFaunaAndForagingModItems {
 	public static final RegistryObject<Item> HEAVENS_DEWDROPGROW_3 = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEWDROPGROW_3);
 	public static final RegistryObject<Item> HEAVENS_DEW_DROPGROWTH_2 = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEW_DROPGROWTH_2);
 	public static final RegistryObject<Item> HEAVENSDEWDROPGROWTH_1 = block(FloraFaunaAndForagingModBlocks.HEAVENSDEWDROPGROWTH_1);
+	public static final RegistryObject<Item> WILTING_NIGHTSHADE = block(FloraFaunaAndForagingModBlocks.WILTING_NIGHTSHADE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
