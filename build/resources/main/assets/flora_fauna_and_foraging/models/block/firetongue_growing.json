@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "flora_fauna_and_foraging:block/firetonguegrowing",
+    "particle": "flora_fauna_and_foraging:block/firetonguegrowing"
+  },
+  "render_type": "cutout"
+}

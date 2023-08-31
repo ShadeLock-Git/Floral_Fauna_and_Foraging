@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "flora_fauna_and_foraging:item/soilviewer"
+  }
+}

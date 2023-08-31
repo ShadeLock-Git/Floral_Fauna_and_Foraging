@@ -1,0 +1,8 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "flora_fauna_and_foraging:block/soil",
+    "particle": "flora_fauna_and_foraging:block/soil"
+  },
+  "render_type": "solid"
+}
