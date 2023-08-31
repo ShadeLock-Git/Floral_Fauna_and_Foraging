@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.florafaunaandforaging.item.PruningShearsItem;
 import net.mcreator.florafaunaandforaging.item.HeavensDewdropBulbItem;
 import net.mcreator.florafaunaandforaging.item.FrostFloretPetalItem;
+import net.mcreator.florafaunaandforaging.item.FlowerPowerItem;
 import net.mcreator.florafaunaandforaging.FloraFaunaAndForagingMod;
 
 public class FloraFaunaAndForagingModItems {
@@ -34,6 +35,7 @@ public class FloraFaunaAndForagingModItems {
 	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_3 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_3);
 	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_4 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_4);
 	public static final RegistryObject<Item> FROST_FLORET_PETAL = REGISTRY.register("frost_floret_petal", () -> new FrostFloretPetalItem());
+	public static final RegistryObject<Item> FLOWER_POWER = REGISTRY.register("flower_power", () -> new FlowerPowerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

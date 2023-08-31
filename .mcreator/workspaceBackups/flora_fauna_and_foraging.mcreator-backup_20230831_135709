@@ -452,7 +452,191 @@
           "src/main/java/net/mcreator/florafaunaandforaging/block/FrostFloretBlock.java",
           "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/frost_floret.json"
         ]
-      }
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStage1",
+      "type": "plant",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/block/FrostFloretGrowthStage1Block.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/frost_floret_growth_stage_1.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/frost_floret_growth_stage_1.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/frost_floret_growth_stage_1.json"
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStage2",
+      "type": "plant",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/frost_floret_growth_stage_2.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/frost_floret_growth_stage_2.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/FrostFloretGrowthStage2Block.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/frost_floret_growth_stage_2.json"
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStage3",
+      "type": "plant",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/block/FrostFloretGrowthStage3Block.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/frost_floret_growth_stage_3.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/frost_floret_growth_stage_3.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/frost_floret_growth_stage_3.json"
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStage4",
+      "type": "plant",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_4",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/frost_floret_growth_stage_4.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/frost_floret_growth_stage_4.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/FrostFloretGrowthStage4Block.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/frost_floret_growth_stage_4.json"
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretPetal",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_petal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/frost_floret_petal.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/item/FrostFloretPetalItem.java"
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretPlantRightClicked",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FrostFloretPlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStageUpdateTick",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FrostFloretGrowthStageUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Frost Floret"
+    },
+    {
+      "name": "FrostFloretGrowthStageOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frost_floret_growth_stage_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FrostFloretGrowthStageOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Frost Floret"
     }
   ],
   "variable_elements": [
@@ -467,16 +651,21 @@
   "language_map": {
     "en_us": {
       "block.flora_fauna_and_foraging.frost_floret": "Frost Floret",
-      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "item.flora_fauna_and_foraging.heavens_dewdrop_bulb": "Heaven\u0027s Dewdrop Bulb",
       "block.flora_fauna_and_foraging.heavensdewdropgrowth_1": "Heavensdewdropgrowth 1",
       "item_group.flora_fauna_and_foraging.flora_fauna_and_foraging": "Flora Fauna And Foraging",
       "block.flora_fauna_and_foraging.heavens_dewdropgrow_3": "Heavens Dewdropgrow 3",
       "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
       "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop",
+      "block.flora_fauna_and_foraging.frost_floret_growth_stage_1": "Frost Floret Growth Stage 1",
+      "block.flora_fauna_and_foraging.frost_floret_growth_stage_3": "Frost Floret Growth Stage 3",
+      "block.flora_fauna_and_foraging.frost_floret_growth_stage_2": "Frost Floret Growth Stage 2",
+      "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2",
+      "block.flora_fauna_and_foraging.frost_floret_growth_stage_4": "Frost Floret Growth Stage 4",
+      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "block.flora_fauna_and_foraging.wilting_nightshade": "Wilting Nightshade",
-      "block.flora_fauna_and_foraging.firetongue": "Firetongue",
-      "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2"
+      "item.flora_fauna_and_foraging.frost_floret_petal": "Frost Floret Petal",
+      "block.flora_fauna_and_foraging.firetongue": "Firetongue"
     }
   },
   "foldersRoot": {
@@ -500,6 +689,10 @@
       },
       {
         "name": "WiltingNightshade",
+        "children": []
+      },
+      {
+        "name": "Frost Floret",
         "children": []
       }
     ]

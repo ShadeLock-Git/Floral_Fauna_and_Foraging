@@ -1,0 +1,7 @@
+{
+  "parent": "flora_fauna_and_foraging:custom/flower_power",
+  "textures": {
+    "1": "flora_fauna_and_foraging:block/flower_power",
+    "particle": "flora_fauna_and_foraging:item/pruningshears"
+  }
+}

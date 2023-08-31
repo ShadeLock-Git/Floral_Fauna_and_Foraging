@@ -78,7 +78,7 @@
     "speedFactor": 0.65,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -91,7 +91,7 @@
       }
     ],
     "generationType": "Flower",
-    "patchSize": 50,
+    "patchSize": 38,
     "generateAtAnyHeight": false,
     "onRightClicked": {
       "name": "FrostFloretPlantRightClicked"

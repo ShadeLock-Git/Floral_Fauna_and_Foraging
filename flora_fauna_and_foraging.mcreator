@@ -637,6 +637,22 @@
         ]
       },
       "path": "~/Frost Floret"
+    },
+    {
+      "name": "FlowerPower",
+      "type": "rangeditem",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/item/FlowerPowerItem.java",
+          "src/main/java/net/mcreator/florafaunaandforaging/entity/FlowerPowerEntity.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/flower_power.json"
+        ]
+      },
+      "path": "~/Frost Floret"
     }
   ],
   "variable_elements": [
@@ -662,6 +678,7 @@
       "block.flora_fauna_and_foraging.frost_floret_growth_stage_2": "Frost Floret Growth Stage 2",
       "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2",
       "block.flora_fauna_and_foraging.frost_floret_growth_stage_4": "Frost Floret Growth Stage 4",
+      "item.flora_fauna_and_foraging.flower_power": "Flower Power",
       "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "block.flora_fauna_and_foraging.wilting_nightshade": "Wilting Nightshade",
       "item.flora_fauna_and_foraging.frost_floret_petal": "Frost Floret Petal",
