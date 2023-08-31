@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "flora_fauna_and_foraging:heavensdewdrop",
-  "step": "vegetal_decoration"
-}

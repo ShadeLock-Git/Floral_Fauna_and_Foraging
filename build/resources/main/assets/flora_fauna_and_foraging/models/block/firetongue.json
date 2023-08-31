@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "flora_fauna_and_foraging:block/ah",
-    "particle": "flora_fauna_and_foraging:block/ah"
-  },
-  "render_type": "cutout"
-}
