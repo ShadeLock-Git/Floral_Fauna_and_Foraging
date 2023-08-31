@@ -1,12 +1,18 @@
 {
-  "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
+  "block.flora_fauna_and_foraging.frost_floret": "Frost Floret",
   "item.flora_fauna_and_foraging.heavens_dewdrop_bulb": "Heaven\u0027s Dewdrop Bulb",
   "block.flora_fauna_and_foraging.heavensdewdropgrowth_1": "Heavensdewdropgrowth 1",
   "item_group.flora_fauna_and_foraging.flora_fauna_and_foraging": "Flora Fauna And Foraging",
   "block.flora_fauna_and_foraging.heavens_dewdropgrow_3": "Heavens Dewdropgrow 3",
   "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
   "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop",
+  "block.flora_fauna_and_foraging.frost_floret_growth_stage_1": "Frost Floret Growth Stage 1",
+  "block.flora_fauna_and_foraging.frost_floret_growth_stage_3": "Frost Floret Growth Stage 3",
+  "block.flora_fauna_and_foraging.frost_floret_growth_stage_2": "Frost Floret Growth Stage 2",
+  "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2",
+  "block.flora_fauna_and_foraging.frost_floret_growth_stage_4": "Frost Floret Growth Stage 4",
+  "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
   "block.flora_fauna_and_foraging.wilting_nightshade": "Wilting Nightshade",
-  "block.flora_fauna_and_foraging.firetongue": "Firetongue",
-  "block.flora_fauna_and_foraging.heavens_dew_dropgrowth_2": "Heavens Dew Dropgrowth 2"
+  "item.flora_fauna_and_foraging.frost_floret_petal": "Frost Floret Petal",
+  "block.flora_fauna_and_foraging.firetongue": "Firetongue"
 }

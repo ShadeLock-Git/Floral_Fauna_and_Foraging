@@ -27,7 +27,7 @@ import net.mcreator.florafaunaandforaging.init.FloraFaunaAndForagingModBlocks;
 public class HeavensDewdropBulblessBlock extends FlowerBlock implements BonemealableBlock {
 	public HeavensDewdropBulblessBlock() {
 		super(() -> MobEffects.UNLUCK, 100,
-				BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().jumpFactor(0.8f).noLootTable().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
+				BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().noLootTable().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

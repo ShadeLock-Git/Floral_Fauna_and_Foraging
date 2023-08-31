@@ -74,10 +74,13 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,
-    "jumpFactor": 0.6,
-    "speedFactor": 0.7999999999999999,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "isBonemealable": false,
+    "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "HeavensDewdropBulblessOnBoneMealSuccess"
+    },
     "frequencyOnChunks": 0,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

@@ -23,6 +23,8 @@ public class FloraFaunaAndForagingModTabs {
 				tabData.accept(FloraFaunaAndForagingModItems.PRUNING_SHEARS.get());
 				tabData.accept(FloraFaunaAndForagingModItems.HEAVENS_DEWDROP_BULB.get());
 				tabData.accept(FloraFaunaAndForagingModBlocks.WILTING_NIGHTSHADE.get().asItem());
+				tabData.accept(FloraFaunaAndForagingModBlocks.FROST_FLORET.get().asItem());
+				tabData.accept(FloraFaunaAndForagingModItems.FROST_FLORET_PETAL.get());
 			})
 
 			.build());

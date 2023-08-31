@@ -74,7 +74,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 100,
     "fireSpreadSpeed": 60,
-    "jumpFactor": 0.8,
+    "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": true,

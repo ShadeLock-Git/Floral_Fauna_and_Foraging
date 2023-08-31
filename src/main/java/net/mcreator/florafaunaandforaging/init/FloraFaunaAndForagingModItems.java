@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.florafaunaandforaging.item.PruningShearsItem;
 import net.mcreator.florafaunaandforaging.item.HeavensDewdropBulbItem;
+import net.mcreator.florafaunaandforaging.item.FrostFloretPetalItem;
 import net.mcreator.florafaunaandforaging.FloraFaunaAndForagingMod;
 
 public class FloraFaunaAndForagingModItems {
@@ -27,6 +28,12 @@ public class FloraFaunaAndForagingModItems {
 	public static final RegistryObject<Item> HEAVENS_DEW_DROPGROWTH_2 = block(FloraFaunaAndForagingModBlocks.HEAVENS_DEW_DROPGROWTH_2);
 	public static final RegistryObject<Item> HEAVENSDEWDROPGROWTH_1 = block(FloraFaunaAndForagingModBlocks.HEAVENSDEWDROPGROWTH_1);
 	public static final RegistryObject<Item> WILTING_NIGHTSHADE = block(FloraFaunaAndForagingModBlocks.WILTING_NIGHTSHADE);
+	public static final RegistryObject<Item> FROST_FLORET = block(FloraFaunaAndForagingModBlocks.FROST_FLORET);
+	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_1 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_1);
+	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_2 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_2);
+	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_3 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_3);
+	public static final RegistryObject<Item> FROST_FLORET_GROWTH_STAGE_4 = block(FloraFaunaAndForagingModBlocks.FROST_FLORET_GROWTH_STAGE_4);
+	public static final RegistryObject<Item> FROST_FLORET_PETAL = REGISTRY.register("frost_floret_petal", () -> new FrostFloretPetalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

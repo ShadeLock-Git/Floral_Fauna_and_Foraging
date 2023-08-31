@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "flora_fauna_and_foraging:block/frostfloret",
+    "particle": "flora_fauna_and_foraging:block/frostfloret"
+  },
+  "render_type": "cutout"
+}
