@@ -1,23 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Hedgehog",
-      "type": "livingentity",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "hedgehog",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/entity/HedgehogEntity.java",
-          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/hedgehog_biome_modifier.json",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/item/hedgehog_spawn_egg.json",
-          "src/main/java/net/mcreator/florafaunaandforaging/client/renderer/HedgehogRenderer.java"
-        ]
-      },
-      "path": "~/Misc."
-    },
-    {
       "name": "DebugSpawnCount",
       "type": "procedure",
       "sortid": 5,
@@ -112,14 +95,14 @@
       "registry_name": "firetongue",
       "metadata": {
         "files": [
-          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/firetongue_biome_modifier.json",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/item/firetongue.json",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/block/firetongue.json",
-          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/firetongue.json",
           "src/main/resources/assets/flora_fauna_and_foraging/blockstates/firetongue.json",
           "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/FiretongueFeature.java",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/firetongue_biome_modifier.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/firetongue.json",
           "src/main/java/net/mcreator/florafaunaandforaging/block/FiretongueBlock.java",
-          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/firetongue.json"
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/firetongue.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/firetongue.json",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/firetongue.json"
         ]
       },
       "path": "~/Firetongue"
@@ -197,8 +180,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBulblessBlock.java",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop_bulbless.json",
           "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop_bulbless.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop_bulbless.json",
           "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop_bulbless.json"
         ]
       },
@@ -249,14 +232,14 @@
       "registry_name": "heavens_dewdrop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop.json",
-          "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature.java",
-          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/heavens_dewdrop_biome_modifier.json",
-          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock.java",
-          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/heavens_dewdrop.json",
-          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/heavens_dewdrop.json",
           "src/main/resources/assets/flora_fauna_and_foraging/models/item/heavens_dewdrop.json",
-          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop.json"
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/placed_feature/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/heavens_dewdrop.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/heavens_dewdrop.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/HeavensDewdropBlock.java",
+          "src/main/java/net/mcreator/florafaunaandforaging/world/features/plants/HeavensDewdropFeature.java",
+          "src/main/resources/data/flora_fauna_and_foraging/worldgen/configured_feature/heavens_dewdrop.json",
+          "src/main/resources/data/flora_fauna_and_foraging/forge/biome_modifier/heavens_dewdrop_biome_modifier.json"
         ]
       },
       "path": "~/Heavensdewdropflower"
@@ -281,7 +264,7 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flora_fauna_and_foraging",
+      "registry_name": "floral_fauna_and_foraging",
       "metadata": {
         "files": []
       },
@@ -386,8 +369,8 @@
       "registry_name": "soil_viewer",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/florafaunaandforaging/item/SoilViewerItem.java",
-          "src/main/resources/assets/flora_fauna_and_foraging/models/item/soil_viewer.json"
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/soil_viewer.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/item/SoilViewerItem.java"
         ]
       }
     },
@@ -424,6 +407,167 @@
           }
         ]
       }
+    },
+    {
+      "name": "SoilTag",
+      "type": "tag",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soil_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/blocks/soil_tag.json"
+        ]
+      }
+    },
+    {
+      "name": "FiretonguePetals",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetongue_petals",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/firetongue_petals.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/item/FiretonguePetalsItem.java"
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "Soil",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/soil.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/entity/SoilBlockEntity.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/soil.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/soil.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/SoilBlock.java"
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "SoilBlockAdded",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soil_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/SoilBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "FiretongueGrowing",
+      "type": "plant",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetongue_growing",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/models/block/firetongue_growing.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/block/FiretongueGrowingBlock.java",
+          "src/main/resources/assets/flora_fauna_and_foraging/models/item/firetongue_growing.json",
+          "src/main/resources/assets/flora_fauna_and_foraging/blockstates/firetongue_growing.json"
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "FiretonguePlantRightClicked",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetongue_plant_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FiretonguePlantRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "Flame",
+      "type": "particle",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flame",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/flora_fauna_and_foraging/particles/flame.json",
+          "src/main/java/net/mcreator/florafaunaandforaging/client/particle/FlameParticle.java"
+        ]
+      },
+      "path": "~/Firetongue"
+    },
+    {
+      "name": "FiretongueGrowingUpdateTick",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "firetongue_growing_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/florafaunaandforaging/procedures/FiretongueGrowingUpdateTickProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Firetongue"
     }
   ],
   "variable_elements": [
@@ -467,15 +611,16 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.flora_fauna_and_foraging.hedgehog_spawn_egg": "Hedgehog Spawn Egg",
-      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
       "item.flora_fauna_and_foraging.heavens_dewdrop_bulb": "Heaven\u0027s Dewdrop Bulb",
-      "item_group.flora_fauna_and_foraging.flora_fauna_and_foraging": "Flora Fauna And Foraging",
-      "entity.flora_fauna_and_foraging.hedgehog": "Hedgehog",
       "block.flora_fauna_and_foraging.heavens_dewdrop_bulbless": "Heavens Dewdrop Bulbless",
       "block.flora_fauna_and_foraging.heavens_dewdrop": "Heaven\u0027s Dewdrop",
+      "block.flora_fauna_and_foraging.soil": "Soil",
+      "block.flora_fauna_and_foraging.firetongue_growing": "Firetongue Growing",
+      "item.flora_fauna_and_foraging.pruning_shears": "Pruning Shears",
+      "item_group.flora_fauna_and_foraging.floral_fauna_and_foraging": "Floral Fauna And Foraging",
       "block.flora_fauna_and_foraging.firetongue": "Firetongue",
-      "item.flora_fauna_and_foraging.soil_viewer": "Soil Viewer"
+      "item.flora_fauna_and_foraging.soil_viewer": "Soil Viewer",
+      "item.flora_fauna_and_foraging.firetongue_petals": "Firetongue Petals"
     }
   },
   "foldersRoot": {
@@ -513,6 +658,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.florafaunaandforaging",
     "lockBaseModFiles": false
   },
